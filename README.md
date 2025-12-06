@@ -1,5 +1,7 @@
 # heart-disease-data-analysis
 
+## 1. Project Overview
+
 This project focuses on analysing a **Heart Disease dataset** to understand the relationship between various clinical features such as age, cholesterol, chest pain, and target condition.  
 The dataset was processed using **Jupyter Notebook**, stored on **AWS S3**, queried through **AWS Athena**, and visualised using **Power BI**.  
 
@@ -8,6 +10,7 @@ The main goal is to perform **data cleaning, cloud-based querying, and interacti
 ---
 
 ## 2. Dataset Information
+
 - **Source:** Kaggle – Heart Disease UCI Dataset  
 - **File used:** `heart_disease_uci_cleaned.csv`  
 - **Total Records:** 920  
@@ -16,6 +19,7 @@ The main goal is to perform **data cleaning, cloud-based querying, and interacti
 ---
 
 ## 3. Tools and Technologies
+
 | Tool | Purpose |
 |------|----------|
 | **Jupyter Notebook** | Data cleaning, preprocessing, and validation |
@@ -94,6 +98,7 @@ The main goal is to perform **data cleaning, cloud-based querying, and interacti
 ---
 
 ## 6. Output Summary
+
 - **Total Records:** 920  
 - **Average Cholesterol:** 132.09 (Female), 132.14 (Male)  
 - **Average Age by Target:** Reversible defect – 55.9, Fixed defect – 54.3, Normal – 53.2  
@@ -102,6 +107,7 @@ The main goal is to perform **data cleaning, cloud-based querying, and interacti
 ---
 
 ## 7. Conclusion
+
 This project demonstrates how a cloud-based data analysis workflow can integrate **AWS S3**, **Athena**, and **Power BI** for efficient healthcare analytics.  
 The analysis provided insights into how factors like age, cholesterol, and chest pain types correlate with heart disease occurrences.  
 The Power BI dashboard visually summarises the findings and offers an intuitive way to interpret patient health data.
