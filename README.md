@@ -102,7 +102,7 @@ The main goal is to perform **data cleaning, cloud-based querying, and interacti
 2. Once the upload completes, click **File → Publish to Web**.  
 3. Copy the generated link and share it publicly for viewing.  
    Example:  
-   👉 [Heart Disease Dashboard - Power BI](https://app.powerbi.com/view?r=eyJrIjoiNzMwOGMyMmItNTNkNC00MzQwLWE1NzgtZmZkYWZmZDFkOTkxIiwidCI6IjQyMGVjNTg5LWE4NjYtNGFkMC05YTU3LWU2MDQ5ZTBkM2JjMCIsImMiOjh9)
+   [Heart Disease Dashboard - Power BI](https://app.powerbi.com/view?r=eyJrIjoiNzMwOGMyMmItNTNkNC00MzQwLWE1NzgtZmZkYWZmZDFkOTkxIiwidCI6IjQyMGVjNTg5LWE4NjYtNGFkMC05YTU3LWU2MDQ5ZTBkM2JjMCIsImMiOjh9)
 ---
 
 ## 5. Output Summary
