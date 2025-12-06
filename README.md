@@ -53,6 +53,21 @@ The main goal is to perform **data cleaning, cloud-based querying, and interacti
 1. Open **AWS Athena** and set up a new database:
    ```sql
    CREATE DATABASE heart_project;
+   
+2. Create a table connected to your S3 file:
+   ```sql
+   CREATE EXTERNAL TABLE heart_disease (...columns...)
+   ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
+   LOCATION 's3://heart-disease-project-aiswarya/data/';
+   
+3. Run SQL queries such as:
+   ```sql
+   SELECT COUNT(*) AS total_records FROM heart_project.heart_disease;
+   SELECT sex, AVG(chol) AS avg_chol FROM heart_project.heart_disease GROUP BY sex;
+   SELECT target, AVG(age) AS avg_age FROM heart_project.heart_disease GROUP BY target;
+   SELECT cp, COUNT(*) AS count FROM heart_project.heart_disease GROUP BY cp;
+   
+4. Download each result as a CSV file (click “Download results CSV”).
 
 ---
 
