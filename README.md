@@ -97,7 +97,7 @@ The main goal is to perform **data cleaning, cloud-based querying, and interacti
    👉 [Heart Disease Dashboard - Power BI](https://app.powerbi.com/view?r=eyJrIjoiNzMwOGMyMmItNTNkNC00MzQwLWE1NzgtZmZkYWZmZDFkOTkxIiwidCI6IjQyMGVjNTg5LWE4NjYtNGFkMC05YTU3LWU2MDQ5ZTBkM2JjMCIsImMiOjh9)
 ---
 
-## 6. Output Summary
+## 5. Output Summary
 
 - **Total Records:** 920  
 - **Average Cholesterol:** 132.09 (Female), 132.14 (Male)  
@@ -106,7 +106,7 @@ The main goal is to perform **data cleaning, cloud-based querying, and interacti
 
 ---
 
-## 7. Conclusion
+## 6. Conclusion
 
 This project demonstrates how a cloud-based data analysis workflow can integrate **AWS S3**, **Athena**, and **Power BI** for efficient healthcare analytics.  
 The analysis provided insights into how factors like age, cholesterol, and chest pain types correlate with heart disease occurrences.  
