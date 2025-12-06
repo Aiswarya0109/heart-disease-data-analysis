@@ -73,9 +73,9 @@ The main goal is to perform **data cleaning, cloud-based querying, and interacti
    
 4. Download each result as a CSV file (click “Download results CSV”).
    ### Data Folder
-   The `data/` folder contains CSV files exported from AWS Athena after running analytical queries.
+   The `data` folder contains CSV files exported from AWS Athena after running analytical queries.
 
-- `data/` → Contains the cleaned dataset and Athena query outputs.
+- `heart_disease_uci_cleaned.csv` → Preprocessed and cleaned dataset
 - `total_records.csv` → Total number of records in the dataset  
 - `avg_chol_by_gender.csv` → Average cholesterol levels grouped by gender  
 - `avg_age_by_target.csv` → Average age grouped by heart condition  
