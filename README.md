@@ -95,6 +95,9 @@ The main goal is to perform **data cleaning, cloud-based querying, and interacti
 4. Format the charts with clear titles, colours, and labels.  
 5. Save the dashboard as `Heart_Disease_Dashboard.pbix`.
 
+(To open the .pbix file, you need to use the Microsoft Power BI Desktop application.
+Alternatively, you can view the published dashboard online using the link below.)
+
 ---
 
 ### Step 5: Publish Dashboard Online
